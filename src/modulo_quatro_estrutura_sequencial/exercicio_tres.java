@@ -1,4 +1,4 @@
-package exercicio_estrutura_sequencial_modulo_quatro;
+package modulo_quatro_estrutura_sequencial;
 
 import java.util.Locale;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package exercicio_estrutura_sequencial_modulo_quatro;
+package modulo_quatro_estrutura_sequencial;
 
 public class exercicio_um{
 	

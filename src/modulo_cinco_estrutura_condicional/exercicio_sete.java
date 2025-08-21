@@ -1,4 +1,4 @@
-package exercicio_estrutura_condicional_modulo_cinco;
+package modulo_cinco_estrutura_condicional;
 import java.util.Locale;
 import java.util.Scanner;
 
