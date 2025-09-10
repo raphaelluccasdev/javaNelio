@@ -3,6 +3,7 @@ package modulo_dezesseis;
 import entities.Contract;
 import entities.Installment;
 import services.ContractService;
+import services.PaypalService;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
@@ -31,7 +32,7 @@ public class fixacao {
         System.out.print("Entre com o numero de parcelas do contrato: ");
         int n = sc.nextInt();
 
-        ContractService contractService = new ContractService(null);
+        ContractService contractService = new ContractService(new PaypalService());
 
         contractService.processContract(obj, n);
         System.out.println("Parcelas: ");
